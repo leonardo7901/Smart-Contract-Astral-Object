@@ -110,7 +110,7 @@ async function createAstralData() {
       getRandomNumber(50, 150)
     ];
 
-    //  Generate a lambda value between the range tollerated by the astral object, but extended by 30% booth ways to simulate randomness
+    //  Generate a lambda value between the range tollerated by the astral object, but extended by 30% booth ways to simulate randomness [123.15 K ; 476.85 K]
     //  Lambda values are multiplied by 10e10, in order to ensure the compatibility with Solidity
     var lambda = getRandomBigNumber(297231, 3361754)
 
